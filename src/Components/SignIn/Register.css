@@ -1,0 +1,59 @@
+.register-page {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 30rem;
+  }
+  
+  .register-page label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .register-page input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ddc1c1;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .register-page input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+
+  .button {
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .register {
+    padding-left: 500px;
+    padding-top: 50px;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .error-msg {
+    color: red;
+  }
